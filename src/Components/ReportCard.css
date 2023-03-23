@@ -1,0 +1,55 @@
+.report-card {
+  width: 100%;
+  max-width: 210mm;   /* A4 width */
+  /* height: 230mm ;  */
+  /* A4 height */
+  border: 2px solid black;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  padding: 10px;
+  box-sizing: border-box;
+  /* transform: rotate(90deg); */
+  }
+  
+  .report-card-header{
+    text-align: center;
+  }
+
+  .report-card-header h1 {
+    margin: 0;
+  }
+
+  .report-card-header p {
+    margin: 5px 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  th {
+    background-color: #ddd;
+  }
+  
+  .report-card-footer {
+    text-align: right;
+    font-size: 0.8em;
+  }
+  
+  .std-detail{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
